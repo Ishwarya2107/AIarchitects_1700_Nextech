@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <h1 style="padding-left: 300px;">Login</h1>
+    {% if message %}
+        <p style="padding-left: 300px; color:red">{{ message }}</p>
+    {% endif %}
+    <form style="padding:50px; padding-left: 300px; " action="/login_data" method="post">
+        <label for="username">Username:</label><br>
+        <div style="padding-bottom: 50px;">
+            
+        </div>
+        <input type="text" id="username" name="username" required><br>
+        <div style="padding-bottom: 50px;">
+            
+        </div>
+        <label for="password">Password:</label><br>
+        <div style="padding-bottom: 50px;">
+            
+        </div>
+        <input type="password" id="password" name="password" required><br>
+        <div style="padding-bottom: 50px;">
+            
+        </div>
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nextech</title>
+   
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        li {
+            float: left;
+            padding: 10px 20px;
+        }
+        li a {
+            color: white;
+            text-decoration: none;
+        }
+        li a:hover {
+            background-color: #111;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .button-home{
+          
+  background-color: #333; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding : 10px;
+  margin-right : 50px;
+}
+        
+        .home-img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .home-text {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .button-container {
+            display: flex;
+            justify-content: flex-start;
+        }
+        .button {
+            margin-right: 10px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a class="home" href="#first">Projectname</a></li>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+    <div class="container">
+        
+        <div style="flex: 1;">
+            <h1 class="home-text" style="padding: 100px;font-size: 50px;">Projectname</h1>
+            <p class="home-text" style="padding-left: 100px;padding-right:300px;padding-bottom: 50px;">
+                Ensure that you have selected the correct Python interpreter in VS Code that corresponds to the base environment where NumPy is installed. You can select the interpreter by clicking on the interpreter name in the bottom left corner of the VS Code window and choosing the appropriate Python interpreter from the list.
+            </p>
+            <div class="button-container" style="padding-left: 100px; padding-right: 100px;">
+                <a href="/login"><button class="button-home">login</button></a>
+                <a href="/register"><button class="button-home">register</button></a>
+            
+                
+                
+                
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+        <div style="padding-right: 200px">
+            <img class="home-img" src="https://barefootsworld.net/wp-content/uploads/2021/11/Professional-Limousine-Services3.jpg" alt="Limousine">
+        </div>
+    </div>
+</body>
+</html>
